@@ -1,0 +1,118 @@
+/* ======================= reset user agent stylesheet============================= 
+/* Kleurpalet
+/* Achtergrond:    #FCF8E8;    gebroken wit 
+/* tegels:         #FBEECF;    heel licht-geel 
+/* links, knoppen: #3DA046;    groen 
+/* kop en voet :   #DF7861     bruin 
+/* ======================= Algemene stijl ======================================== */
+html,body {
+    background     :#FCF8E8; 
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+A:link {
+    font-size      : 100%;
+    color          : #3DA046;   /* groen */
+}
+A:hover {
+    font-size      : 100%; 
+    color          : #000       /* zwart */
+}
+A:visited { color: #CC3399; }
+.pijl {
+    width           : 25px;
+}
+.pijl:hover {
+    fill            : black;
+}
+
+.btn-primary {
+    color           : #fff !important;
+    background-color: #A8D199;
+    border-color    : #A8D199;
+    border-radius   : 5px;
+}
+.btn-primary:hover {
+    color           : #000 !important;
+    background-color: #A8D199;
+    border-color    : #A8D199;
+}
+.btn-primary:focus,.btn-primary.focus{
+    box-shadow:0 0 0 .2rem rgba(0,90,90,0.5);
+    background-color: #A8D199;
+    border-color    : #A8D199;
+}
+
+
+.card {
+    background-color : #FBEECF;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pagination > li > a
+{
+    background-color: #A8D199;  /* licht groen */
+    color: #5A4181;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover
+{
+    color: #5a5a5a;
+    background-color: #FCF8E8;
+    border-color: #FCF8E8;
+}
+
+
+.page-item.active .page-link
+{
+    color: white;
+    background-color: #006600 !important; /* donker groen */
+    border: none;
+}
+.active, .accordion:hover
+{
+    background-color: #FCF8E8;
+    border: none;
+}
+.alert-info {
+    background-color : #FBEECF;
+    border-color: #FCF8E8;
+}
+
+/*========================= kasteelopvraag (zoeken) kastelen facet  ================= */
+
+#kasttab th {
+    color          : #3DA046;   /* groen */
+    font-size      : 1.2em;
+    background-color: #FBEECF;  /* heel licht-geel */
+    cursor         : pointer;
+}
+
+/*============================ kastelen rond plaats ==============================*/
+.ko-label-kaart{
+    float           : left;
+    height          : 22px;
+    width           : 85px;
+}
+
+/*============================ Middeleeuwse kastelen kaart ==================== */
+.midd-map {
+    width           : 100%;
+    height          : 900px;
+}
+
+.leaflet-left .leaflet-control {
+    margin-left     : 0px;
+}
+.leaflet-bottem .leaflet-control {
+    width           : 100%;
+}
+
+/*============================  publicatie-details  ========================== */ 
+    
